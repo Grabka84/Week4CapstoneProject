@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="styles.css"/>
+<title>Week 4 Capstone - Shopping List index</title>
+</head>
+<body>
+<div class = "header">
+	<p>Grocery Store App</p>
+</div>
+<div class = "table">
+	<table>
+	<tr>
+		<th class = "item">Item</th>
+		<th>Price</th>
+		<th></th>
+	</tr>
+	<tr>
+		<td class ="item">Apples</td>
+		<td>$1.15</td>
+		<td><button onclick = "addItem('Apples', 1.15)">Add to cart</button></td>
+	</tr>
+	<tr>
+		<td class ="item">Bananas</td>
+		<td>$0.59</td>
+		<td><button onclick = "addItem('Bananas', 0.59)">Add to cart</button></td>
+	</tr>
+	<tr>
+		<td class ="item">Carrots</td>
+		<td>$0.69</td>
+		<td><button onclick = "addItem('Carrots', 0.69)">Add to cart</button></td>
+	</tr>
+	<tr>
+		<td class ="item">Dates</td>
+		<td>$8.99</td>
+		<td><button onclick = "addItem('Dates', 8.99)">Add to cart</button></td>
+	</tr>
+	<tr>
+		<td class ="item">Eggplant</td>
+		<td>$1.99</td>
+		<td><button onclick = "addItem('Eggplant', 1.99)">Add to cart</button></td>
+	</tr>
+	<tr>
+		<td class ="item">Figs</td>
+		<td>$9.99</td>
+		<td><button onclick = "addItem('Figs', 9.99)">Add to cart</button></td>
+	</tr>
+	</table>
+</div>
+
+<div class = "table">
+	<p class = "check-out">Shopping Cart</p>
+	<table>
+	<tr id = "cartHead">
+		<th>Item</th>
+		<th>Price</th>
+	</tr>
+	
+	</table>
+</div>
+<button onclick = "checkOut()">Check Out</button>
+<div class = "table">
+	<table>
+	<tr>
+	<td class = "cart">Sub Total</td>
+	<td id = "cart"></td>
+	</tr>
+	<tr>
+	<td class = "cart">MI tax @ 6%</td>
+	<td id = "cartTax"></td>
+	<tr>
+	<td class = "cart">Grand Total</td>
+	<td id = "cartTotal"></td>
+	</table>
+</div>
+<script src = "shop-script.js"></script>
+</body>
+</html>

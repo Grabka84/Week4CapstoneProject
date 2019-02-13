@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+.header {
+	border: 2px solid black;
+	text-align: center;
+	font-size: 20px;
+	margin: 5px 5px;
+	padding: 5px 5px;
+	width: 300px;
+	background-color: lemonchiffon;
+}
+
+.check-out {
+	text-align: center;
+	font-size: 20px;
+	margin: 5px 5px;
+	padding: 5px 5px;
+}
+
+.table {
+	border: 2px solid black;
+	text-align: center;
+	font-size: 15px;
+	width: 300px;
+	margin: 5px 5px;
+	padding: 5px 5px;
+	background-color: lemonchiffon;
+}
+
+th {
+	margin: 5px 5px;
+	padding: 5px 25px;
+	width: 100px;
+	text-decoration: underline;
+}
+
+th.item {
+	width: 100px;
+	text-align: left;
+}
+
+td.cart {
+	margin: 5px 5px;
+	padding: 5px 25px;
+	width: 150px;
+}
+
+td.item {
+	text-align: left;
+}
